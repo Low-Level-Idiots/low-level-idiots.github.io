@@ -1,0 +1,11 @@
+html {
+	background-color: #3b7c52;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+.panel {
+	padding: 10px;
+	background-color: #333333;
+	border-radius: 20px;
+}
