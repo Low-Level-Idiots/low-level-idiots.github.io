@@ -28,6 +28,7 @@ html {
 }
 
 .panel {
+	margin: 10px;
 	padding: 40px;
 	text-align: center;
 	background-color: #292929;
@@ -55,7 +56,6 @@ html {
 }
 
 #quote {
-	font-size: 75px;
 	margin: auto;
 	position: relative;
 }
@@ -64,13 +64,12 @@ html {
 	margin: 20px;
 	display: grid;
 	gap: 10px;
-	grid-template-columns: 20% 80%;
+	grid-template-columns: 25% 70%;
 	grid-template-rows: auto;
 }
 
 .card{
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	display: grid;
 	grid-template-rows: auto 24px;
 	text-align: center;
