@@ -1,7 +1,8 @@
-function make_card(username){
+function make_card(username, rolename){
 	let user_card = document.getElementById(username);
 	let pic = document.createElement("img");
 	let name = document.createElement("b");
+	let role = document.createElement("b");
 	let url = "https://api.github.com/users/" + username;
 	fetch(url)
 		.then(res => res.json())
@@ -9,6 +10,7 @@ function make_card(username){
 			pic.src = data.avatar_url;
 			console.log(data.avatar_url);
 			name.innerHTML = data.login;
+			role.innerHTML = data.login;
 		});
 	user_card.appendChild(pic);
 	user_card.appendChild(name);
